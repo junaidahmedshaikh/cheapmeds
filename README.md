@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💊 CheapMeds
 
-## Getting Started
+**Compare medication prices and find the best deals effortlessly!**  
+CheapMeds is a modern web-based platform that helps users **search**, **compare**, and **save** on medications by offering real-time price comparisons across multiple sources.
 
-First, run the development server:
+---
 
-```bash
+## 📝 Description
+
+**CheapMeds** empowers users to make informed healthcare choices by simplifying the way people access medication pricing. With an intuitive UI and a powerful medication search engine, CheapMeds brings transparency and affordability to medicine shopping.
+
+Whether you're a patient, a caregiver, or a developer interested in healthcare tech, CheapMeds offers valuable insights and tools for your needs.
+
+---
+
+## 🚀 Features
+
+- 🔍 **Search Medications**  
+  Easily search for thousands of medicines using a smart, autocomplete-enabled search bar.
+
+- 💰 **Compare Prices**  
+  View real-time price comparisons from multiple pharmacies and sources.
+
+- 🏷️ **Find Best Deals**  
+  Instantly identify the cheapest option available near you or online.
+
+- 📊 **User-Friendly Interface**  
+  Clean, responsive design built for all device types.
+
+- 📦 **Extensive Database**  
+  Comprehensive medication listing with detailed information.
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/junaidahmedshaikh/cheapmeds.git
+   cd cheapmeds
+## Install dependencies
+
+npm install
+
+## Start the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Visit the homepage
+- Enter the name of a medication
+- Instantly view a list of vendors and prices
+- Click to explore or purchase from the preferred source
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Frontend:** React.js / Next.js 
+- **Backend:** Node.js / Express
+- **Database:** MongoDB
+- **Styling:** Tailwind CSS / Styled Components
+- **APIs:** External medication and pricing APIs
