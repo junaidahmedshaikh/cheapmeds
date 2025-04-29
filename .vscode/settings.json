@@ -1,0 +1,11 @@
+{
+    "workbench.colorCustomizations": {
+        "errorLens.hintForeground": "#ffc600A1",
+        "errorLens.hintBackground": "#ffc60003",
+        "errorLens.errorBackground": "#ff000005",
+        "activityBar.background": "#143501",
+        "titleBar.activeBackground": "#1C4A01",
+        "titleBar.activeForeground": "#F0FFE8"
+    },
+    "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}${separator}[Branch: main]"
+}
