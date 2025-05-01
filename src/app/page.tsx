@@ -1,20 +1,19 @@
 "use client";
 
 import { useGet1mgMedicine, useGetPharmeasyMedicine } from "@/store/queries";
-import { Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+
 import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { ComparisonResults } from "./compare";
 import { Header } from "@/components/ui/header";
+
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [query, setQuery] = useState("");
 
   const { data, isLoading } = useGet1mgMedicine(query);
   const { data: data2, isLoading: isLoading2 } = useGetPharmeasyMedicine(query);
-
+  console.log(searchQuery);
   const handleSearch = () => {
     if (searchQuery.trim()) {
       setQuery(searchQuery);
@@ -97,6 +96,7 @@ export default function Home() {
 
         {/* comparison results */}
         <ComparisonResults
+          userQuery={searchQuery}
           data={data}
           data2={data2}
           isLoading={isLoading}

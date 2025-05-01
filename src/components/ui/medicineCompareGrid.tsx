@@ -74,7 +74,7 @@ export default function MedicineComparisonGrid({
             Math.max(medicine.mg1Price, medicine.pharmaPrice)) *
           100;
 
-        console.log("medcine comparison card: ", medicine);
+        // console.log("medcine comparison card: ", medicine);
         return (
           <div
             key={medicine.id}
