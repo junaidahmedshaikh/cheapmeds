@@ -10,14 +10,11 @@ export function ComparisonResults() {
   const [expandedProduct, setExpandedProduct] = useState<string | null>(null);
 
   // Helper function to find the best deal for each product
-  const findBestDeal = (product) => {
-    // Calculate the cheapest price between the two platforms (mg1 and pharma)
+  const findBestDeal = (product: { mg1Price: number; pharmaPrice: number }) => {
     const bestDeal = {
       price: Math.min(product.mg1Price, product.pharmaPrice),
-      platform: product.mg1Price < product.pharmaPrice ? "1mg" : "PharmEasy",
-      id: product.id,
+      source: product.mg1Price < product.pharmaPrice ? "mg1" : "pharma",
     };
-
     return bestDeal;
   };
 
