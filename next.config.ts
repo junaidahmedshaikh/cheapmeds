@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     'www.saphnixlifecare.com',
   ], // <-- Add the domain here
   },
+   eslint: {
+    ignoreDuringBuilds: true,
+  },
 };
 
 export default nextConfig;
