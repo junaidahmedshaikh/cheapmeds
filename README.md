@@ -31,21 +31,6 @@ Whether you're a patient, a caregiver, or a developer interested in healthcare t
   Comprehensive medication listing with detailed information.
 
 ---
-
-## ⚙️ Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/junaidahmedshaikh/cheapmeds.git
-   cd cheapmeds
-## Install dependencies
-
-npm install
-
-## Start the development server
-
-npm run dev
-
 ## 💡 Usage
 
 - Visit the homepage
@@ -61,3 +46,20 @@ npm run dev
 - **Database:** MongoDB
 - **Styling:** Tailwind CSS / Styled Components
 - **APIs:** External medication and pricing APIs
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/junaidahmedshaikh/cheapmeds.git
+   cd cheapmeds
+## Install dependencies
+
+npm install
+
+## Start the development server
+
+npm run dev
+
