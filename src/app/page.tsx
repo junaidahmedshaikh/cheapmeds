@@ -97,10 +97,10 @@ export default function Home() {
         {/* comparison results */}
         <ComparisonResults
           userQuery={searchQuery}
-          data={data}
-          data2={data2}
-          isLoading={isLoading}
-          isLoading2={isLoading2}
+          // data={data}
+          // data2={data2}
+          // isLoading={isLoading}
+          // isLoading2={isLoading2}
         />
       </div>
     </main>

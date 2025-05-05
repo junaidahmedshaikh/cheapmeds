@@ -1,13 +1,25 @@
-import { Check, Clock, Link, Star } from "lucide-react";
+import { Check, Clock, Star } from "lucide-react";
 import Image from "next/image";
 import type { Medicine } from "@/types/medicine";
 import { Badge } from "@/components/ui/badge";
 
-type MedicineCardProps = {
+// type MedicineCardProps = {
+//   medicine: Medicine;
+//   company: "mg1" | "pharma";
+//   isCheapest: boolean;
+//   isCompanyBetter: boolean;
+// };
+
+export type MedicineCardProps = {
   medicine: Medicine;
   company: "mg1" | "pharma";
   isCheapest: boolean;
   isCompanyBetter: boolean;
+  originalPrice: number;
+  discountedPrice: number;
+  discountPercentage: number;
+  rating: number;
+  delivery: string;
 };
 
 export default function MedicineCard({
