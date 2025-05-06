@@ -30,6 +30,14 @@ Whether you're a patient, a caregiver, or a developer interested in healthcare t
 - 📦 **Extensive Database**  
   Comprehensive medication listing with detailed information.
 
+
+--- 
+📸 Project Screenshot
+
+
+![CheapMeds Screenshot](https://res.cloudinary.com/difvkvxuy/image/upload/c_crop,h_1240,w_2048/Cheapmeds/li1rofxaclyl0z4pbp5n)
+
+
 ---
 ## 💡 Usage
 
