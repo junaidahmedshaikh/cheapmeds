@@ -41,7 +41,7 @@ Whether you're a patient, a caregiver, or a developer interested in healthcare t
 ## 🛠️ Technologies Used
 
 
-- **Frontend:** React.js / Next.js 
+- **Frontend:** React.js, Next.js and Typescript
 - **Backend:** Node.js / Express
 - **Database:** MongoDB
 - **Styling:** Tailwind CSS / Styled Components
